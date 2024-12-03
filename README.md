@@ -14,3 +14,6 @@ Technology Stack 🛠️
 - Framework: React
 - Styling: Tailwind CSS
 - Deployment: [Vercel]
+
+  ![image](https://github.com/user-attachments/assets/fe6ca6b6-e267-44ed-b348-b9cb9d27e2b5)
+
