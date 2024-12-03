@@ -16,7 +16,7 @@ Technology Stack 🛠️
 - Deployment: [Vercel]
 
   ![image](https://github.com/user-attachments/assets/fe6ca6b6-e267-44ed-b348-b9cb9d27e2b5)
-  ![image](https://github.com/user-attachments/assets/a11126c5-1395-429e-85d4-a73bc19e48ec)
+  ![image](https://github.com/user-attachments/assets/94e70589-9596-430d-a103-1cdcc5200ac2)
   ![image](https://github.com/user-attachments/assets/a5beda1c-1e4c-4b0a-9e6f-1b3edbb4bf3d)
 
 
