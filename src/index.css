@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: "Inter", sans-serif;
+  background:#000000 ;
+
+}
+
+@keyframes gradientShift {
+  0% {
+    background: white;
+    color: rgb(88, 88, 88);
+  }
+  50% {
+    background: linear-gradient(90deg, rgba(254, 186, 15, 1), rgba(255, 94, 77, 1));
+    color: white;
+  }
+  100% {
+    background: white;
+    color: rgb(88, 88, 88);
+  }
+}
+
+@keyframes iconGradientShift {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #feb80f; /* Starting gradient color */
+    text-shadow: 0 0 8px rgba(254, 186, 15, 0.8);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.icon-animation {
+  animation: iconGradientShift 3s infinite ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-animation:hover {
+  transform: scale(1.2); /* Slight scaling effect on hover */
+}
+
+.view-project-button {
+  background: white;
+  color: rgb(88, 88, 88);
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  animation: gradientShift 3s ease-in-out infinite; /* Apply gradient animation */
+}
+
+.view-project-button:hover {
+  background: linear-gradient(90deg, rgba(254, 186, 15, 1), rgba(255, 94, 77, 1));
+  color: white;
+}
+
+
+
+/* Profile Image */
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Circular image */
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .profile-img-container {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-img-container {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-img-container {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Adjust the gradient colors or spacing */
+.circle-gradient {
+  border-image-source: conic-gradient(
+    #feb80f 10%, 
+    rgba(255, 94, 77, 1) 30%, 
+    rgba(0, 0, 0, 0) 50%
+  );
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+}
