@@ -55,12 +55,24 @@
   font-size: 14px;
   border-radius: 4px;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center; /* Align the text and icon */
+  justify-content: center; /* Center the content */
   transition: all 0.3s ease-in-out;
-  animation: gradientShift 3s ease-in-out infinite; /* Apply gradient animation */
+  animation: gradientShift 3s ease-in-out infinite;
 }
 
 .view-project-button:hover {
   background: linear-gradient(90deg, rgba(254, 186, 15, 1), rgba(255, 94, 77, 1));
+  color: white;
+}
+
+.view-project-button .fa-github {
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.view-project-button:hover .fa-github {
   color: white;
 }
 
@@ -111,3 +123,5 @@
   border-style: solid;
   border-radius: 50%;
 }
+
+
