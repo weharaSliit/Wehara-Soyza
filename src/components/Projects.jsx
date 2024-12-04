@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 const Projects = () => {
   return (
     <div className="pb-4">
-      <motion.h2 
-        whileInView={{opacity:1, y:0}}
-        initial={{opacity:0, y: -100}}
-        transition={{duration: 0.5}}
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl text-white"
       >
         Projects
@@ -19,7 +19,8 @@ const Projects = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
+              viewport={{ once: true, amount: 0.5 }} 
+              transition={{ duration: 0.8, ease: "easeOut" }}
               className="w-full lg:w-1/4"
             >
               <img
@@ -28,6 +29,7 @@ const Projects = () => {
                 height={250}
                 alt={project.title}
                 className="mb-6 rounded"
+                loading="lazy" 
               />
             </motion.div>
 
@@ -51,13 +53,11 @@ const Projects = () => {
               ))}
               <div className="mt-4">
                 <a
-                  href={project.link}  // Use the link property here
+                  href={project.link} 
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="view-project-button">
-                    View Project
-                  </button>
+                  <button className="view-project-button">View Project</button>
                 </a>
               </div>
             </motion.div>

@@ -59,3 +59,37 @@ export const CONTACT = {
   phoneNo: "+94 76 924 3227 ",
   email: "soyzawehara@gmail.com",
 };
+
+export const INTERESTS = [
+  {
+    title: "Machine Learning",
+    description:
+      "Exploring algorithms and models that enable computers to learn and make predictions from data. Special focus on supervised and unsupervised learning techniques.",
+  },
+  {
+    title: "Data Analysis",
+    description:
+      "Uncovering trends and insights by interpreting complex datasets using statistical and computational techniques.",
+  },
+  {
+    title: "Data Visualization",
+    description:
+      "Transforming data into visually appealing and meaningful charts, graphs, and dashboards for better decision-making.",
+  },
+  {
+    title: "Data Mining",
+    description:
+      "Extracting valuable information and patterns from large datasets to support business strategies and research.",
+  },
+  
+  {
+    title: "Big Data",
+    description:
+      "Handling and analyzing massive amounts of data to uncover actionable insights using distributed computing techniques.",
+  },
+  {
+    title: "Cloud Computing",
+    description:
+      "Leveraging cloud platforms to store, process, and analyze data, ensuring scalability and efficiency.",
+  },
+];
