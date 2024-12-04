@@ -49,7 +49,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing my skills, projects, education and contact information.",
     technologies: ["React", "Tailwind css", "Framer Motion"],
-    link: "https://github.com/weharaSliit",
+    link: "https://github.com/weharaSliit/Wehara-Soyza",
   },
   
 ];
