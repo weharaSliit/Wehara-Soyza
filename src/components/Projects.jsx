@@ -59,7 +59,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                 >
                   <button className="view-project-button">
-                  <FaGithub className="mr-2" /> {/* GitHub Icon */}
+                  <FaGithub className="mr-2" /> 
                     View Project</button>
                 </a>
               </div>
