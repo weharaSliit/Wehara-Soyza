@@ -39,7 +39,7 @@ export const PROJECTS = [
     title: "Wedding Management System",
     image: project2,
     description:
-      "A fully functional website as 2 year 1 semester project. I did the package management part of the project.",
+      "A fully functional website as 2 year 1 semester project.",
     technologies: ["Java"],
     link: "https://github.com/weharaSliit",
   },
