@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/pro1.svg";
-import project2 from "../assets/projects/project22.svg";
+import project2 from "../assets/projects/pro2.svg";
 import project3 from "../assets/projects/pro3.svg";
 
 
@@ -32,14 +32,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional Art gallery management system with features like User Management, Artwork Management, Bidding Management, Inquiry Management, Financial Management, Event Management, Ticketing Management and Inventory Management. This was done for the Awarna Art gallery as per the requirement of the client for 2 year 2 semester project. I have contributed by developing Bidding Management part of the project which was the innovative part in our Art gallery Management system.",
-    technologies: ["MERN Stack", "Git Version Control"],
+    technologies: ["MERN Stack", "Git"],
     link: "https://github.com/weharaSliit/Art-gallery-system-2-year-2-sem",
   },
   {
     title: "Wedding Management System",
     image: project2,
     description:
-      "A fully functional website as 2 year 1 semester project.",
+      "The Wedding Management System is a fully functional website developed as part of a 2nd-year 1st-semester project. User involvement in this project was focused on the package management aspect, where they developed and integrated the module responsible for managing wedding packages, pricing, and service customization. This project was done using Object-Oriented Programming (OOP) concepts to ensure modular, maintainable, and scalable code for managing the complexities of wedding planning.",
     technologies: ["Java" , "HTML", "CSS", "JavaScript"],
     link: "https://github.com/weharaSliit",
   },
@@ -47,10 +47,11 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing my skills, projects, education and contact information.",
-    technologies: ["React", "Tailwind css", "Framer Motion", "Vercel"],
+      "The Portfolio Website is a personal website designed to showcase the user's skills, projects, education, and contact information. The website was developed using React for dynamic content, Tailwind CSS for modern and responsive styling, and Framer Motion for smooth animations. It was deployed on Vercel for fast and reliable hosting. The website serves as a comprehensive online representation of the my expertise and achievements.It also provides easy navigation to learn more about me and my work and connect with me.",
+    technologies: ["React", "TailwindCss", "FramerMotion", "Vercel"],
     link: "https://github.com/weharaSliit/Wehara-Soyza",
   },
+
   
 ];
 

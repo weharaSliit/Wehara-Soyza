@@ -13,23 +13,26 @@ const Projects = () => {
         Projects
       </motion.h2>
 
-      <div>
+      <div className="flex flex-wrap gap-8 justify-center">
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div
+            key={index}
+            className="flex flex-col items-center w-full sm:w-1/2 lg:w-1/4"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              viewport={{ once: true, amount: 0.5 }} 
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="w-full lg:w-1/4"
+              className="w-full mb-6 project-box"
             >
               <img
                 src={project.image}
                 width={250}
                 height={250}
                 alt={project.title}
-                className="mb-6 rounded"
-                loading="lazy" 
+                className="rounded"
+                loading="lazy"
               />
             </motion.div>
 
@@ -37,7 +40,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:-w-3/4"
+              className="w-full max-w-xl text-center"
             >
               <h3 className="mb-2 font-semibold text-2xl text-white">
                 {project.title}
@@ -52,11 +55,7 @@ const Projects = () => {
                 </span>
               ))}
               <div className="mt-4">
-                <a
-                  href={project.link} 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <button className="view-project-button">View Project</button>
                 </a>
               </div>
