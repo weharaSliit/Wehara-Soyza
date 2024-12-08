@@ -44,7 +44,7 @@ export const PROJECTS = [
     link: "https://github.com/weharaSliit",
   },
   {
-    title: "Portfolio Webpage",
+    title: "Portfolio Website",
     image: project3,
     description:
       "The Portfolio Website is a personal website designed to showcase the user's skills, projects, education, and contact information. The website was developed using React for dynamic content, Tailwind CSS for modern and responsive styling, and Framer Motion for smooth animations. It was deployed on Vercel for fast and reliable hosting. The website serves as a comprehensive online representation of the my expertise and achievements.It also provides easy navigation to learn more about me and my work and connect with me.",

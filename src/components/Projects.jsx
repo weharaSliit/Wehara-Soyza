@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -54,9 +55,11 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
-              <div className="mt-4">
+              <div className="mt-4 button-container">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <button className="view-project-button">View Project</button>
+                  <button className="view-project-button flex items-center justify-center gap-2">
+                  <FaGithub className="icon-animation" />
+                    View Project</button>
                 </a>
               </div>
             </motion.div>

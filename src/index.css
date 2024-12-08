@@ -55,6 +55,15 @@
   font-weight: 600;
   transition: all 0.3s ease-in-out;
   animation: gradientShift 3s ease-in-out infinite; /* Apply gradient animation */
+  display: inline-flex; /* Aligns the icon and text inline */
+  align-items: center; /* Vertically centers content */
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  margin-top: 1rem; /* Add spacing from the top */
 }
 
 .view-project-button:hover {
