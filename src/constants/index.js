@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project12.svg";
+import project1 from "../assets/projects/pro1.svg";
 import project2 from "../assets/projects/project22.svg";
-import project3 from "../assets/projects/project23.svg";
+import project3 from "../assets/projects/pro3.svg";
 
 
 
@@ -32,7 +32,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional Art gallery management system with features like User Management, Artwork Management, Bidding Management, Inquiry Management, Financial Management, Event Management, Ticketing Management and Inventory Management. This was done for the Awarna Art gallery as per the requirement of the client for 2 year 2 semester project. I have contributed by developing Bidding Management part of the project which was the innovative part in our Art gallery Management system.",
-    technologies: ["MERN Stack"],
+    technologies: ["MERN Stack", "Git Version Control"],
     link: "https://github.com/weharaSliit/Art-gallery-system-2-year-2-sem",
   },
   {
@@ -40,7 +40,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "A fully functional website as 2 year 1 semester project.",
-    technologies: ["Java"],
+    technologies: ["Java" , "HTML", "CSS", "JavaScript"],
     link: "https://github.com/weharaSliit",
   },
   {
@@ -48,7 +48,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing my skills, projects, education and contact information.",
-    technologies: ["React", "Tailwind css", "Framer Motion"],
+    technologies: ["React", "Tailwind css", "Framer Motion", "Vercel"],
     link: "https://github.com/weharaSliit/Wehara-Soyza",
   },
   

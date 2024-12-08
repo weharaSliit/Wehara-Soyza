@@ -55,24 +55,13 @@
   font-size: 14px;
   border-radius: 4px;
   font-weight: 600;
-  display: inline-flex;
-  align-items: center; /* Align the text and icon */
-  justify-content: center; /* Center the content */
   transition: all 0.3s ease-in-out;
-  animation: gradientShift 3s ease-in-out infinite;
+  animation: gradientShift 3s ease-in-out infinite; /* Apply gradient animation */
 }
+
 
 .view-project-button:hover {
   background: linear-gradient(90deg, rgba(254, 186, 15, 1), rgba(255, 94, 77, 1));
-  color: white;
-}
-
-.view-project-button .fa-github {
-  font-size: 18px;
-  transition: color 0.3s ease-in-out;
-}
-
-.view-project-button:hover .fa-github {
   color: white;
 }
 
@@ -124,4 +113,62 @@
   border-radius: 50%;
 }
 
+/* Background Animation */
+body {
+  overflow: auto;
+  background-color: black;
+}
 
+/* Starry Background */
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  animation: twinkle 2s infinite;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translateY(-100vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.moving-stars {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.star {
+  animation: moveStars 10s linear infinite, twinkle 2s infinite;
+}
+
+.star:nth-child(odd) {
+  width: 2px;
+  height: 2px;
+}
+
+.star:nth-child(even) {
+  width: 1px;
+  height: 1px;
+}
+
+.star:nth-child(1) { left: 10%; top: 5%; }
+.star:nth-child(2) { left: 30%; top: 20%; }
+.star:nth-child(3) { left: 50%; top: 15%; }
+.star:nth-child(4) { left: 70%; top: 50%; }
+.star:nth-child(5) { left: 90%; top: 30%; }
