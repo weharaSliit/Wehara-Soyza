@@ -51,7 +51,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "75/15/1, ClassicView Terrace Pahalakaragahamuna Kadawatha ",
+  address: "75/15/1, ClassicViewTerrace Pahalakaragahamuna Kadawatha ",
   phoneNo: "+94 76 924 3227 ",
   email: "soyzawehara@gmail.com",
 };
