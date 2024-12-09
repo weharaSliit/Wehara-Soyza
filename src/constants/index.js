@@ -2,16 +2,13 @@ import project1 from "../assets/projects/pro1.svg";
 import project2 from "../assets/projects/pro2.svg";
 import project3 from "../assets/projects/pro3.svg";
 
-
-
 export const ABOUT_TEXT = `Hello! I am an aspiring Data Scientist with a strong passion for uncovering insights and solving complex problems through data. Currently pursuing a Bachelor's degree in Information Technology with a specialization in Data Science at SLIIT, I have developed a solid foundation in data analysis, machine learning, and statistical modeling.My journey so far includes hands-on experience with tools like Python and R.I am enthusiastic about leveraging data science to make a meaningful impact on businesses and society, and I continuously seek opportunities to grow and challenge myself in this ever-evolving field.`;
 
 export const EDUCATION = [
   {
-    year: "2022 - Present (3 year 1 semester)",
-    degree: "Reading: BSC(Hons) in Information Technology specializing in Data Science",
-    university: "Sri Lanka Institute of Information Technology.",
-    
+    year: "2019 - 2021",
+    degree: "A/L's in Commerce Stream(Accounting,Statistics,Economics)",
+    university: "De Mazenod College.",
   },
   {
     year: "2022 - 2023",
@@ -19,11 +16,11 @@ export const EDUCATION = [
     university: "Esoft Metro Campus.",
   },
   {
-    year: "2019 - 2021",
-    degree: "A/L's in Commerce Stream(Accounting,Statistics,Economics)",
-    university: "De Mazenod College.",
+    year: "2022 - Present (3 year 1 semester)",
+    degree:
+      "Reading: BSC(Hons) in Information Technology specializing in Data Science",
+    university: "Sri Lanka Institute of Information Technology.",
   },
-    
 ];
 
 export const PROJECTS = [
@@ -40,7 +37,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "The Wedding Management System is a fully functional website developed as part of a 2nd-year 1st-semester project. User involvement in this project was focused on the package management aspect, where they developed and integrated the module responsible for managing wedding packages, pricing, and service customization. This project was done using Object-Oriented Programming (OOP) concepts to ensure modular, maintainable, and scalable code for managing the complexities of wedding planning.",
-    technologies: ["Java" , "HTML", "CSS", "JavaScript"],
+    technologies: ["Java", "HTML", "CSS", "JavaScript"],
     link: "https://github.com/weharaSliit",
   },
   {
@@ -51,8 +48,6 @@ export const PROJECTS = [
     technologies: ["React", "TailwindCss", "FramerMotion", "Vercel"],
     link: "https://github.com/weharaSliit/Wehara-Soyza",
   },
-
-  
 ];
 
 export const CONTACT = {
@@ -82,7 +77,7 @@ export const INTERESTS = [
     description:
       "Extracting valuable information and patterns from large datasets to support business strategies and research.",
   },
-  
+
   {
     title: "Big Data",
     description:
