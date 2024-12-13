@@ -30,7 +30,7 @@ export const PROJECTS = [
     description:
       "A fully functional Art gallery management system with features like User Management, Artwork Management, Bidding Management, Inquiry Management, Financial Management, Event Management, Ticketing Management and Inventory Management. This was done for the Awarna Art gallery as per the requirement of the client for 2 year 2 semester project. I have contributed by developing Bidding Management part of the project which was the innovative part in our Art gallery Management system.",
     technologies: ["MERN Stack", "Git"],
-    link: "https://github.com/weharaSliit/Art-gallery-system-2-year-2-sem",
+    link: "https://github.com/Savidya9800/Art-Gallery-Management-System",
   },
   {
     title: "Wedding Management System",
