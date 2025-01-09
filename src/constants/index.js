@@ -36,7 +36,7 @@ export const PROJECTS = [
     title: "Wedding Management System",
     image: project2,
     description:
-      "The Wedding Management System is a fully functional website developed as part of a 2nd-year 1st-semester project. User involvement in this project was focused on the package management aspect, where they developed and integrated the module responsible for managing wedding packages, pricing, and service customization. This project was done using Object-Oriented Programming (OOP) concepts to ensure modular, maintainable, and scalable code for managing the complexities of wedding planning.",
+      "The Wedding Management System is a fully functional website developed as part of a 2nd-year 1st-semester project. User involvement in this project was focused on the package management aspect, where we developed and integrated the module responsible for managing wedding packages, pricing, and service customization. This project was done using Object-Oriented Programming (OOP) concepts to ensure modular, maintainable, and scalable code for managing the complexities of wedding planning.",
     technologies: ["Java", "HTML", "CSS", "JavaScript"],
     link: "https://github.com/weharaSliit",
   },
@@ -44,7 +44,7 @@ export const PROJECTS = [
     title: "Portfolio Website ",
     image: project3,
     description:
-      "The Portfolio Website is a personal website designed to showcase the user's skills, projects, education, and contact information. The website was developed using React for dynamic content, Tailwind CSS for modern and responsive styling, and Framer Motion for smooth animations. It was deployed on Vercel for fast and reliable hosting. The website serves as a comprehensive online representation of the my expertise and achievements.It also provides easy navigation to learn more about me and my work and connect with me.",
+      "The Portfolio Website is a personal website designed to showcase the my skills, projects, education, and contact information. The website was developed using React for dynamic content, Tailwind CSS for modern and responsive styling, and Framer Motion for smooth animations. It was deployed on Vercel for fast and reliable hosting. The website serves as a comprehensive online representation of the my expertise and achievements.It also provides easy navigation to learn more about me and my work and connect with me.",
     technologies: ["React", "TailwindCss", "FramerMotion", "Vercel"],
     link: "https://github.com/weharaSliit/Wehara-Soyza",
   },

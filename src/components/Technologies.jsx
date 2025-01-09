@@ -57,7 +57,7 @@ const Technologies = () => {
         transition={{ duration: 1 }}
         className="my-20 text-center text-4xl text-white"
       >
-        Technologies & Skills
+         Skills
       </motion.h2>
 
       {Object.entries(skillsData).map(([category, skills], idx) => (
