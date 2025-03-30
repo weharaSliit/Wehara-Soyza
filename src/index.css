@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   font-family: "Inter", sans-serif;
-  background:#000000 ;
-
+  background: #000000;
 }
 
 @keyframes gradientShift {
@@ -57,6 +55,15 @@
   font-weight: 600;
   transition: all 0.3s ease-in-out;
   animation: gradientShift 3s ease-in-out infinite; /* Apply gradient animation */
+  display: inline-flex; /* Aligns the icon and text inline */
+  align-items: center; /* Vertically centers content */
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  margin-top: 1rem; /* Add spacing from the top */
 }
 
 .view-project-button:hover {
@@ -64,7 +71,49 @@
   color: white;
 }
 
+/* Responsive Layout */
+@media (max-width: 1024px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
 
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .project-item {
+    width: 100%;  /* Full width on smaller screens */
+    max-width: 250px; /* Ensure the item doesn’t get too wide */
+    margin: 10px;
+  }
+}
+
+img {
+  width: 100%; /* Make images responsive */
+  border-radius: 10px;
+}
+
+.project-box {
+  position: relative;
+  border: 2px solid transparent;
+  padding: 20px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  box-shadow: 0 0 30px rgba(254, 186, 15, 1), 0 0 60px rgba(255, 94, 77, 0.8); /* Glowing effect on hover */
+  border-color: rgba(254, 186, 15, 1); /* Light yellow border */
+  transition: all 0.3s ease-in-out;
+}
+
+/*.project-box:hover {
+  box-shadow: 0 0 30px rgba(254, 186, 15, 1), 0 0 60px rgba(255, 94, 77, 0.8);  Glowing effect on hover 
+  border-color: rgba(254, 186, 15, 1);  Light yellow border 
+}*/
 
 /* Profile Image */
 .profile-img {
@@ -75,8 +124,6 @@
   position: relative;
   z-index: 1;
 }
-
-
 
 /* Responsive Design */
 @media (max-width: 1024px) {
@@ -111,3 +158,63 @@
   border-style: solid;
   border-radius: 50%;
 }
+
+/* Background Animation */
+body {
+  overflow: auto;
+  background-color: black;
+}
+
+/* Starry Background */
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  animation: twinkle 2s infinite;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translateY(-100vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.moving-stars {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.star {
+  animation: moveStars 10s linear infinite, twinkle 2s infinite;
+}
+
+.star:nth-child(odd) {
+  width: 2px;
+  height: 2px;
+}
+
+.star:nth-child(even) {
+  width: 1px;
+  height: 1px;
+}
+
+.star:nth-child(1) { left: 10%; top: 5%; }
+.star:nth-child(2) { left: 30%; top: 20%; }
+.star:nth-child(3) { left: 50%; top: 15%; }
+.star:nth-child(4) { left: 70%; top: 50%; }
+.star:nth-child(5) { left: 90%; top: 30%; }
