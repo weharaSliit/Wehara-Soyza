@@ -2,7 +2,7 @@ import project1 from "../assets/projects/pro1.svg";
 import project2 from "../assets/projects/pro2.svg";
 import project3 from "../assets/projects/pro3.svg";
 import project4 from "../assets/projects/pro4.svg";
-
+import project5 from "../assets/projects/pro5.svg";
 export const ABOUT_TEXT = `Hello! I am an aspiring Data Scientist with a strong passion for uncovering insights and solving complex problems through data. Currently pursuing a Bachelor's degree in Information Technology with a specialization in Data Science at SLIIT, I have developed a solid foundation in data analysis, machine learning, and statistical modeling.My journey so far includes hands-on experience with tools like Python and R.I am enthusiastic about leveraging data science to make a meaningful impact on businesses and society, and I continuously seek opportunities to grow and challenge myself in this ever-evolving field.`;
 
 export const EDUCATION = [
@@ -57,6 +57,24 @@ export const PROJECTS = [
       "This project demonstrates a complete end-to-end Business Intelligence (BI) workflow using a Snowflake Schema for a retail sales scenario. It includes:\n\n⚙️ Data Warehouse design and implementation (via SSMS)\n📊 OLAP Cube creation (via Visual Studio/SSAS)\n📝 SSRS Reports\n📈 Power BI dashboards\n📁 Excel-based OLAP operations",
     technologies: ["SSMS", "SSAS", "SSRS", "PowerBI", "Excel"],
     link: "https://github.com/weharaSliit/RetailAnalytics-DWBI", 
+  },
+
+  {
+    title: "Grow SPhere ",
+    image: project3,
+    description:
+      "The Portfolio Website is a personal website designed to showcase the my skills, projects, education, and contact information. The website was developed using React for dynamic content, Tailwind CSS for modern and responsive styling, and Framer Motion for smooth animations. It was deployed on Vercel for fast and reliable hosting. The website serves as a comprehensive online representation of the my expertise and achievements.It also provides easy navigation to learn more about me and my work and connect with me.",
+    technologies: ["React", "TailwindCss", "FramerMotion", "Vercel"],
+    link: "https://github.com/weharaSliit/Wehara-Soyza",
+  },
+
+  {
+    title: "GrowSphere: Gardening & Sustainable Agriculture Platform",
+    image: project5,
+    description:
+      "GrowSphere is a Spring-based web application designed to promote eco-friendly gardening and sustainable agriculture practices. The platform helps users plan, manage, and optimize gardens while fostering community engagement. Key features include User Profiles & Garden Logs, Gardening Tutorials, Community Discussions, and Growth Challenges with a leaderboard system to motivate participation. As the contributor for the Challenges & Leaderboard module, I implemented challenge tracking, badge earning, and ranking features.",
+    technologies: ["SpringBoot", "React", "MongoDB", "Postman"],
+    link: "https://github.com/weharaSliit/-Gardening-Sustainable-Agriculture-", 
   },
 ];
 
