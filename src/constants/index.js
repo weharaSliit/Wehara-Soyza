@@ -55,7 +55,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "This project demonstrates a complete end-to-end Business Intelligence (BI) workflow using a Snowflake Schema for a retail sales scenario. It includes:\n\n⚙️ Data Warehouse design and implementation (via SSMS)\n📊 OLAP Cube creation (via Visual Studio/SSAS)\n📝 SSRS Reports\n📈 Power BI dashboards\n📁 Excel-based OLAP operations",
-    technologies: ["SQL Server", "SSMS", "SSAS", "SSRS", "Power BI", "Excel"],
+    technologies: ["SSMS", "SSAS", "SSRS", "PowerBI", "Excel"],
     link: "https://github.com/weharaSliit/RetailAnalytics-DWBI", 
   },
 ];
