@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/pro1.svg";
 import project2 from "../assets/projects/pro2.svg";
 import project3 from "../assets/projects/pro3.svg";
-import project4 from "../assets/projects/pro4.svg";
+import project4 from "../assets/projects/proj4.svg";
 
 export const ABOUT_TEXT = `Hello! I am an aspiring Data Scientist with a strong passion for uncovering insights and solving complex problems through data. Currently pursuing a Bachelor's degree in Information Technology with a specialization in Data Science at SLIIT, I have developed a solid foundation in data analysis, machine learning, and statistical modeling.My journey so far includes hands-on experience with tools like Python and R.I am enthusiastic about leveraging data science to make a meaningful impact on businesses and society, and I continuously seek opportunities to grow and challenge myself in this ever-evolving field.`;
 
